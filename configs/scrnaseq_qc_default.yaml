@@ -1,0 +1,20 @@
+# QC Pipeline Configuration
+
+random_seed: 281330800
+
+scdblfinder:
+  default:
+    dbr.sd: 1
+
+filtering:
+  default:
+    min_genes: 100
+    max_genes: 7500
+    min_umis: 100
+    max_umis: 50000
+    complexity: 0.8
+    max_mito_percent: 8
+    mad_mito_percent: 3
+    mad_genes: 5
+    mad_umis: 5
+    mad_pct_top20: 5
