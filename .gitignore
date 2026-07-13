@@ -34,3 +34,6 @@
 !.gitignore
 !README.md
 !LICENSE
+
+# 5. renv's Python dependency
+!requirements.txt
